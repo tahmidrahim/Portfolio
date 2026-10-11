@@ -6,8 +6,7 @@ export const siteConfig = {
   metaDescription:
     "Mobile app developer specializing in Flutter, Firebase, and Node.js. Building business apps, client portals, and backends with clear milestones and full handoff.",
   siteUrl: "https://tahmidrahim-portfolio.netlify.app",
-  email: "contact.tahmidrahim@gmail.com",
-  whatsapp: "+8801700000000",
+  email: "tahmidrahim2003@gmail.com",
   calendlyUrl: "https://calendly.com/tahmidrahim/15min",
   replyTimePromise: "Replies within 24 business hours",
   overlapHours: "2:00 PM – 10:00 PM GMT+6 (4–6 hours daily overlap with US & EU timezones)",

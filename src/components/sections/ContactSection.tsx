@@ -101,31 +101,23 @@ export const ContactSection: React.FC = () => {
                   </div>
                 )}
 
-                {/* WhatsApp */}
-                {shouldRenderContact(siteConfig.whatsapp) && (
-                  <div className="p-4 sm:p-5 rounded-2xl bg-white/95 dark:bg-[#0d121c]/95 border border-slate-200/90 dark:border-slate-800/90 shadow-sm backdrop-blur-xl hover:border-teal-500/50 transition-colors">
-                    <span className="text-[10px] uppercase tracking-wider font-bold text-teal-600 dark:text-teal-400 block mb-1">
-                      WhatsApp Chat
-                    </span>
-                    {!isTodo(siteConfig.whatsapp) ? (
-                      <a
-                        href={`https://wa.me/${siteConfig.whatsapp.replace(/[^0-9]/g, "")}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs sm:text-sm font-bold text-[var(--text-primary)] hover:text-teal-600 dark:hover:text-teal-400 transition-colors inline-flex items-center gap-1.5"
-                      >
-                        <span>{siteConfig.whatsapp}</span>
-                        <svg className="w-3.5 h-3.5 text-teal-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>
-                      </a>
-                    ) : (
-                      <span className="text-xs sm:text-sm font-mono text-[var(--accent)] bg-[var(--accent-subtle)] px-2 py-0.5 rounded">
-                        {siteConfig.whatsapp}
-                      </span>
-                    )}
-                  </div>
-                )}
+                {/* LinkedIn */}
+                <div className="p-4 sm:p-5 rounded-2xl bg-white/95 dark:bg-[#0d121c]/95 border border-slate-200/90 dark:border-slate-800/90 shadow-sm backdrop-blur-xl hover:border-teal-500/50 transition-colors">
+                  <span className="text-[10px] uppercase tracking-wider font-bold text-teal-600 dark:text-teal-400 block mb-1">
+                    LinkedIn Profile
+                  </span>
+                  <a
+                    href={siteConfig.links.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs sm:text-sm font-bold text-[var(--text-primary)] hover:text-teal-600 dark:hover:text-teal-400 transition-colors inline-flex items-center gap-1.5"
+                  >
+                    <span>Connect on LinkedIn</span>
+                    <svg className="w-3.5 h-3.5 fill-current text-[#0a66c2] shrink-0" viewBox="0 0 24 24">
+                      <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.32a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24" />
+                    </svg>
+                  </a>
+                </div>
 
                 {/* Call Booking */}
                 {shouldRenderContact(siteConfig.calendlyUrl) && (
