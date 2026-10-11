@@ -12,7 +12,7 @@ export const AboutSection: React.FC = () => {
     <section id="about" className="py-16 sm:py-20 md:py-24 relative border-t border-[var(--border)] transition-colors overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
-          pill="Engineering Profile"
+          pill="Developer Profile"
           title="About Me"
           description="Direct, transparent, and focused on clean software delivery."
         />

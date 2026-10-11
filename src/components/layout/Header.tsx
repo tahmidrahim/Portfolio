@@ -34,7 +34,7 @@ export const Header: React.FC = () => {
               {siteConfig.name}
             </span>
             <span className="text-[10px] font-medium text-[var(--text-tertiary)] uppercase tracking-wider mt-0.5">
-              Mobile App Engineer
+              Mobile App Developer
             </span>
           </div>
         </Link>

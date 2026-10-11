@@ -8,7 +8,7 @@ export const ServicesSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           pill="Capabilities &amp; Scope"
-          title="Direct Engineering Services"
+          title="Core Development Services"
           description="Tailored development engagements for founders, business operators, and product teams needing high-reliability mobile execution."
         />
 
