@@ -1,0 +1,31 @@
+{
+  "name": "tahmid-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check:todos": "node scripts/check-todos.js",
+    "check:todos:strict": "node scripts/check-todos.js --strict",
+    "verify:links": "node scripts/verify-links.js",
+    "predeploy": "npm run check:todos:strict"
+  },
+  "dependencies": {
+    "next": "^15.5.27",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^15.5.27",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
