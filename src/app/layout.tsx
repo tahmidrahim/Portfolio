@@ -71,7 +71,6 @@ export default function RootLayout({
     sameAs: [
       siteConfig.links.github,
       siteConfig.links.linkedin,
-      siteConfig.links.fiverr,
     ],
     knowsAbout: [
       "Flutter",

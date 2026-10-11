@@ -44,14 +44,6 @@ export const Footer: React.FC = () => {
             >
               LinkedIn
             </a>
-            <a
-              href={siteConfig.links.fiverr}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
-            >
-              Fiverr
-            </a>
           </div>
 
           <p className="text-xs">
