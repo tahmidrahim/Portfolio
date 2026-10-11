@@ -9,7 +9,7 @@ export const faqs: FaqItem[] = [
   {
     question: "How do we communicate throughout the project?",
     answer:
-      "We communicate via Slack, Discord, WhatsApp, or email based on your workflow, alongside scheduled video check-ins. You receive regular milestone progress updates and test builds to verify on your own hardware.",
+      "We communicate via Slack, Discord, LinkedIn, or email based on your workflow, alongside scheduled video check-ins. You receive regular milestone progress updates and test builds to verify on your own hardware.",
   },
   {
     question: "What is your pricing model?",
