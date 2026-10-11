@@ -71,7 +71,6 @@ export default function RootLayout({
     sameAs: [
       siteConfig.links.github,
       siteConfig.links.linkedin,
-      siteConfig.links.upwork,
       siteConfig.links.fiverr,
     ],
     knowsAbout: [
@@ -151,11 +150,11 @@ export default function RootLayout({
             <option value="Maintenance & Add-Ons">Maintenance & Add-Ons</option>
           </select>
           <select name="budget">
-            <option value="<$2,000">&lt; $2,000</option>
-            <option value="$2,000 - $5,000">$2,000 - $5,000</option>
-            <option value="$5,000 - $10,000">$5,000 - $10,000</option>
-            <option value="$10,000+">$10,000+</option>
             <option value="To be discussed">To be discussed</option>
+            <option value="<$1,000">&lt; $1,000</option>
+            <option value="$1,000 - $2,500">$1,000 - $2,500</option>
+            <option value="$2,500 - $5,000">$2,500 - $5,000</option>
+            <option value="$5,000+">$5,000+</option>
           </select>
           <textarea name="message"></textarea>
           <input type="hidden" name="bot-field" />

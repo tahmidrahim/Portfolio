@@ -15,7 +15,6 @@ export const siteConfig = {
   links: {
     github: "https://github.com/tahmidrahim",
     linkedin: "https://www.linkedin.com/in/mdtahmidtanjimrahim/",
-    upwork: "https://www.upwork.com/freelancers/~01b63673557a6f5e4c",
     fiverr: "https://www.fiverr.com/html_rahim",
     universityRepo: "https://github.com/tahmidrahim/University-App",
     propVaultLive: "https://real-estate-management01.netlify.app/",

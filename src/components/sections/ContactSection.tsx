@@ -10,7 +10,7 @@ export const ContactSection: React.FC = () => {
     name: "",
     email: "",
     projectType: "Mobile App (Flutter)",
-    budget: "$2,000 - $5,000",
+    budget: "To be discussed",
     message: "",
     "bot-field": "",
   });
@@ -47,7 +47,7 @@ export const ContactSection: React.FC = () => {
           name: "",
           email: "",
           projectType: "Mobile App (Flutter)",
-          budget: "$2,000 - $5,000",
+          budget: "To be discussed",
           message: "",
           "bot-field": "",
         });
@@ -278,11 +278,11 @@ export const ContactSection: React.FC = () => {
                         onChange={handleChange}
                         className="w-full px-3.5 sm:px-4 py-2.5 sm:py-3 rounded-xl bg-slate-50 dark:bg-[#07090e] border border-slate-200 dark:border-slate-800 text-sm text-[var(--text-primary)] focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 transition-all outline-none cursor-pointer"
                       >
-                        <option value="<$2,000">&lt; $2,000</option>
-                        <option value="$2,000 - $5,000">$2,000 - $5,000</option>
-                        <option value="$5,000 - $10,000">$5,000 - $10,000</option>
-                        <option value="$10,000+">$10,000+</option>
                         <option value="To be discussed">To be discussed</option>
+                        <option value="<$1,000">&lt; $1,000</option>
+                        <option value="$1,000 - $2,500">$1,000 - $2,500</option>
+                        <option value="$2,500 - $5,000">$2,500 - $5,000</option>
+                        <option value="$5,000+">$5,000+</option>
                       </select>
                     </div>
                   </div>
